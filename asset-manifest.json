@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3336fbaa.css",
+    "main.js": "/static/js/main.9a51fd56.js",
+    "static/js/787.e1e59465.chunk.js": "/static/js/787.e1e59465.chunk.js",
+    "static/media/wellspaceVision_home.png": "/static/media/wellspaceVision_home.74a9d8527ee91c35169a.png",
+    "static/media/New-Location.png": "/static/media/New-Location.398a071870c09794bdd5.png",
+    "static/media/Happy-Family-1024x838.png": "/static/media/Happy-Family-1024x838.1d847077d415d0c4d1f8.png",
+    "static/media/Happy-Doctor-1024x839.png": "/static/media/Happy-Doctor-1024x839.135d8ced3d3b391d4131.png",
+    "index.html": "/index.html",
+    "main.3336fbaa.css.map": "/static/css/main.3336fbaa.css.map",
+    "main.9a51fd56.js.map": "/static/js/main.9a51fd56.js.map",
+    "787.e1e59465.chunk.js.map": "/static/js/787.e1e59465.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3336fbaa.css",
+    "static/js/main.9a51fd56.js"
+  ]
+}
