@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.contact, .video, .phone, .fax, .email {
+  border-style: solid;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-left-width: 2px;
+  border-bottom-width: 2px;
+  color: #ffffff;
+  border-color: rgba(0,0,0,0);
+  background-color: #68d4ff;
+  border-radius: 0;
+  padding-top: 16px;
+  padding-right: 40px;
+  padding-bottom: 16px;
+  padding-left: 40px;
+  font-weight: 600;
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.phone, .fax, .email {
+  width: 300px
+}
+
+.email {
+  text-transform: none;
+}
+
+.navbar-expand-lg {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
