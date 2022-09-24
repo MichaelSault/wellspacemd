@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wellspacemd/static/css/main.a0ad2b7e.css",
-    "main.js": "/wellspacemd/static/js/main.97f7faf2.js",
+    "main.js": "/wellspacemd/static/js/main.8224ba53.js",
     "static/js/787.e1e59465.chunk.js": "/wellspacemd/static/js/787.e1e59465.chunk.js",
     "static/media/wellspaceVision_home.png": "/wellspacemd/static/media/wellspaceVision_home.74a9d8527ee91c35169a.png",
     "static/media/New-Location.png": "/wellspacemd/static/media/New-Location.398a071870c09794bdd5.png",
@@ -18,11 +18,11 @@
     "static/media/lady-having-cryotherapy.jpg": "/wellspacemd/static/media/lady-having-cryotherapy.0f8efd35dd8fc9af1f07.jpg",
     "index.html": "/wellspacemd/index.html",
     "main.a0ad2b7e.css.map": "/wellspacemd/static/css/main.a0ad2b7e.css.map",
-    "main.97f7faf2.js.map": "/wellspacemd/static/js/main.97f7faf2.js.map",
+    "main.8224ba53.js.map": "/wellspacemd/static/js/main.8224ba53.js.map",
     "787.e1e59465.chunk.js.map": "/wellspacemd/static/js/787.e1e59465.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0ad2b7e.css",
-    "static/js/main.97f7faf2.js"
+    "static/js/main.8224ba53.js"
   ]
 }
