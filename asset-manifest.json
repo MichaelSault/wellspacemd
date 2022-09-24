@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/wellspacemd/static/css/main.a0ad2b7e.css",
-    "main.js": "/wellspacemd/static/js/main.854d8bac.js",
-    "static/js/787.e1e59465.chunk.js": "/wellspacemd/static/js/787.e1e59465.chunk.js",
-    "static/media/wellspaceVision_home.png": "/wellspacemd/static/media/wellspaceVision_home.74a9d8527ee91c35169a.png",
-    "static/media/New-Location.png": "/wellspacemd/static/media/New-Location.398a071870c09794bdd5.png",
-    "static/media/Happy-Family-1024x838.png": "/wellspacemd/static/media/Happy-Family-1024x838.1d847077d415d0c4d1f8.png",
-    "static/media/Happy-Doctor-1024x839.png": "/wellspacemd/static/media/Happy-Doctor-1024x839.135d8ced3d3b391d4131.png",
-    "static/media/streptococcal-screen_thumb.jpg": "/wellspacemd/static/media/streptococcal-screen_thumb.f6a730f7efe7cac4757d.jpg",
-    "static/media/allergies.png": "/wellspacemd/static/media/allergies.ad6ed542e5f2545644e2.png",
-    "static/media/covid-vaccine.png": "/wellspacemd/static/media/covid-vaccine.2b1de45f6a967467662d.png",
-    "static/media/brain.png": "/wellspacemd/static/media/brain.7a9c935551511f283b1c.png",
-    "static/media/covid-germ.png": "/wellspacemd/static/media/covid-germ.5cb6f990d99acc42598a.png",
-    "static/media/pediactric-care.jpg": "/wellspacemd/static/media/pediactric-care.8ba51522498c074600b7.jpg",
-    "static/media/intramuscular-injection.jpg": "/wellspacemd/static/media/intramuscular-injection.48f7a1dc55fba8f942ee.jpg",
-    "static/media/weight.png": "/wellspacemd/static/media/weight.e5f80203fa915aa6d1d3.png",
-    "static/media/lady-having-cryotherapy.jpg": "/wellspacemd/static/media/lady-having-cryotherapy.0f8efd35dd8fc9af1f07.jpg",
-    "index.html": "/wellspacemd/index.html",
-    "main.a0ad2b7e.css.map": "/wellspacemd/static/css/main.a0ad2b7e.css.map",
-    "main.854d8bac.js.map": "/wellspacemd/static/js/main.854d8bac.js.map",
-    "787.e1e59465.chunk.js.map": "/wellspacemd/static/js/787.e1e59465.chunk.js.map"
+    "main.css": "/static/css/main.a0ad2b7e.css",
+    "main.js": "/static/js/main.124d0b98.js",
+    "static/js/787.e1e59465.chunk.js": "/static/js/787.e1e59465.chunk.js",
+    "static/media/wellspaceVision_home.png": "/static/media/wellspaceVision_home.74a9d8527ee91c35169a.png",
+    "static/media/New-Location.png": "/static/media/New-Location.398a071870c09794bdd5.png",
+    "static/media/Happy-Family-1024x838.png": "/static/media/Happy-Family-1024x838.1d847077d415d0c4d1f8.png",
+    "static/media/Happy-Doctor-1024x839.png": "/static/media/Happy-Doctor-1024x839.135d8ced3d3b391d4131.png",
+    "static/media/streptococcal-screen_thumb.jpg": "/static/media/streptococcal-screen_thumb.f6a730f7efe7cac4757d.jpg",
+    "static/media/allergies.png": "/static/media/allergies.ad6ed542e5f2545644e2.png",
+    "static/media/covid-vaccine.png": "/static/media/covid-vaccine.2b1de45f6a967467662d.png",
+    "static/media/brain.png": "/static/media/brain.7a9c935551511f283b1c.png",
+    "static/media/covid-germ.png": "/static/media/covid-germ.5cb6f990d99acc42598a.png",
+    "static/media/pediactric-care.jpg": "/static/media/pediactric-care.8ba51522498c074600b7.jpg",
+    "static/media/intramuscular-injection.jpg": "/static/media/intramuscular-injection.48f7a1dc55fba8f942ee.jpg",
+    "static/media/weight.png": "/static/media/weight.e5f80203fa915aa6d1d3.png",
+    "static/media/lady-having-cryotherapy.jpg": "/static/media/lady-having-cryotherapy.0f8efd35dd8fc9af1f07.jpg",
+    "index.html": "/index.html",
+    "main.a0ad2b7e.css.map": "/static/css/main.a0ad2b7e.css.map",
+    "main.124d0b98.js.map": "/static/js/main.124d0b98.js.map",
+    "787.e1e59465.chunk.js.map": "/static/js/787.e1e59465.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0ad2b7e.css",
-    "static/js/main.854d8bac.js"
+    "static/js/main.124d0b98.js"
   ]
 }
