@@ -17,9 +17,9 @@ export default class Footer extends React.Component {
                     </div>
 
                     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-                        <li className="ms-3"><a href="#twitter"><img src={twitterIcon} width="30px" alt="twitter"/> </a></li>
-                        <li className="ms-3"><a href="#instagram"><img src={instagramIcon} width="30px" alt="instagram"/></a></li>
-                        <li className="ms-3"><a href="#facebook"><img src={facebookIcon} width="30px" alt="facebook"/></a></li>
+                        <li className="ms-3"><a href="https://twitter.com/WellspaceMD" target="_blank" rel="noreferrer"><img src={twitterIcon} width="30px" alt="twitter"/> </a></li>
+                        <li className="ms-3"><a href="https://www.instagram.com/wellspacemd" target="_blank" rel="noreferrer"><img src={instagramIcon} width="30px" alt="instagram"/></a></li>
+                        <li className="ms-3"><a href="https://www.facebook.com/wellspacemd/" target="_blank" rel="noreferrer"><img src={facebookIcon} width="30px" alt="facebook"/></a></li>
                     </ul>
                 </footer>
             </div>

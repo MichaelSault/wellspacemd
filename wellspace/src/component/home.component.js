@@ -7,6 +7,7 @@ import wellSpaceVision from '../images/wellspaceVision_home.png';
 import happyDoctor from '../images/Happy-Doctor-1024x839.png';
 import happyFamily from '../images/Happy-Family-1024x838.png';
 import wellSpaceLocation from '../images/New-Location.png';
+import ContactBlock from './contactBlock.component';
 
 export default class Home extends React.Component {
     render(){
@@ -41,8 +42,14 @@ export default class Home extends React.Component {
 
                 <img src={wellSpaceLocation} width="100%" alt="Wellspace Location"/>
                 
-                <button className="video">Watch Video ▷</button>
+                <br /><br />
 
+                <a className="centered" href="video">
+                    <button className="video">Watch Video ▷</button>
+                </a>
+
+
+                <br /><br /><br />
                 <Container>
                     <Row>
                         <Col>
@@ -78,12 +85,7 @@ export default class Home extends React.Component {
                             
                         </Col>
                         <Col>
-                            <h1>Contact</h1>
-                            <button className="phone">✆ 905-618-9934</button>
-                            <br/><br/>
-                            <button className="fax">🖷 289-271-1132</button>
-                            <br/><br/>
-                            <button className="email">✉︎ info@wellspacemd.com</button>
+                            <ContactBlock />
                         </Col>
                     </Row>
                 </Container>

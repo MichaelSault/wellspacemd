@@ -13,7 +13,7 @@
   color: white;
 }
 
-.contact, .video, .phone, .fax, .email {
+.contactButton, .serviceButton, .video, .phone, .fax, .email, .health, .submit{
   border-style: solid;
   border-top-width: 2px;
   border-right-width: 2px;
@@ -43,6 +43,11 @@
   text-transform: none;
 }
 
+.submit {
+  width: 70%;
+  align-self: center;
+}
+
 .navbar-expand-lg {
   flex-wrap: nowrap;
   justify-content: flex-start;
@@ -54,4 +59,21 @@
   flex-grow: 1;
   align-items: center;
   justify-content: flex-end;
+}
+
+.contactDiv {
+  margin: 1%;
+}
+
+.contact {
+  margin: 1%, 1%, 1%, 1%;
+}
+
+.form-floating {
+  margin: .5%;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
 }
