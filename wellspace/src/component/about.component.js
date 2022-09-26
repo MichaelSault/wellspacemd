@@ -33,13 +33,13 @@ export default class About extends React.Component {
                         </Col>
                         <Col>
                             <h1>Values</h1>
-                            <p>
-                                <ul>
-                                    <li>Loren ipsum dolor sit amet</li>
-                                    <li>Luctus nec ullam corper</li>
-                                    <li>Pulvinar dapibus leo</li>
-                                </ul>
-                            </p>
+                            
+                            <ul>
+                                <li>Loren ipsum dolor sit amet</li>
+                                <li>Luctus nec ullam corper</li>
+                                <li>Pulvinar dapibus leo</li>
+                            </ul>
+                            
                         </Col>
                     </Row>
                 </Container>

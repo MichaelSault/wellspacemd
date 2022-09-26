@@ -48,7 +48,7 @@
   align-self: center;
 }
 
-.navbar-expand-lg {
+.navbar-expand-sm {
   flex-wrap: nowrap;
   justify-content: flex-start;
   width: 100%;
@@ -74,6 +74,10 @@
 }
 
 .centered {
-  display: flex;
+  flex: auto;
   justify-content: center;
+}
+
+.allergyDesc {
+  font-size: 1.5em;
 }

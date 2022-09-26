@@ -19,28 +19,28 @@ export default class Services extends React.Component {
                         </Col>
                         <Col>
                             <h1>Our Vision</h1>
-                            <p>
-                                <ul>
-                                    <li>Abscess incision and drainage</li>
-                                    <li>Simple wound dressings</li>
-                                    <li>Cryotherapy</li>
-                                </ul>
-                            </p>
+                            
+                            <ul>
+                                <li>Abscess incision and drainage</li>
+                                <li>Simple wound dressings</li>
+                                <li>Cryotherapy</li>
+                            </ul>
+                            
                             <button className="contact">CONTACT</button>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
                             <h1>Our Vision</h1>
-                            <p>
-                                <ul>
-                                    <li>Local excision of moles, kin growth, skin cancers, etc.</li>
-                                    <li>Electrocautery of skin lesions</li>
-                                    <li>Skin biopsy</li>
-                                    <li>Tuberculosis skin testing</li>
-                                    <li>Most intramuscular and subcutaneous injections</li>
-                                </ul>
-                            </p>
+                            
+                            <ul>
+                                <li>Local excision of moles, kin growth, skin cancers, etc.</li>
+                                <li>Electrocautery of skin lesions</li>
+                                <li>Skin biopsy</li>
+                                <li>Tuberculosis skin testing</li>
+                                <li>Most intramuscular and subcutaneous injections</li>
+                            </ul>
+                            
                             <button className="contact">CONTACT</button>
                         </Col>
                         <Col>
@@ -53,29 +53,29 @@ export default class Services extends React.Component {
                         </Col>
                         <Col>
                             <h1>Our Vision</h1>
-                            <p>
-                                <ul>
-                                    <li>Spirometry</li>
-                                    <li>Rapid strep testing</li>
-                                    <li>Ear syringing</li>
-                                    <li>Toenail removal</li>
-                                    <li>IUD insertion</li>
-                                </ul>
-                            </p>
+                            
+                            <ul>
+                                <li>Spirometry</li>
+                                <li>Rapid strep testing</li>
+                                <li>Ear syringing</li>
+                                <li>Toenail removal</li>
+                                <li>IUD insertion</li>
+                            </ul>
+                            
                             <button className="contact">CONTACT</button>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
                             <h1>Our Vision</h1>
-                            <p>
-                                <ul>
-                                    <li>Allergy immunotherapy injections</li>
-                                    <li>Prenatal and postnatal care</li>
-                                    <li>Newborn and pediatric care, including immunizations</li>
-                                    <li>Driver’s license physical examinations</li>
-                                </ul>
-                            </p>
+                            
+                            <ul>
+                                <li>Allergy immunotherapy injections</li>
+                                <li>Prenatal and postnatal care</li>
+                                <li>Newborn and pediatric care, including immunizations</li>
+                                <li>Driver’s license physical examinations</li>
+                            </ul>
+                            
                             <button className="contact">CONTACT</button>
                         </Col>
                         <Col>

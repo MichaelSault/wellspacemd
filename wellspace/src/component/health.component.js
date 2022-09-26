@@ -19,29 +19,39 @@ export default class Services extends React.Component {
                         <Col>
                             <img src={covidGerm} width="100%" alt="covid-19"/>
                             <h3>covid-19</h3>
-                            <button className="health">Learn More</button>
+                            <a href="covid19">
+                                <button className="health">Learn More</button>
+                            </a>
                         </Col>
                         <Col>
                             <img src={covidVaccine} width="100%" alt="covid-19 vaccine"/>
                             <h3>covid-19 vaccine</h3>
-                            <button className="health">Learn More</button>
+                            <a href="covidVaccine">
+                                <button className="health">Learn More</button>
+                            </a>
                         </Col>
                         <Col>
                             <img src={weightLoss} width="100%" alt="weight loss"/>
                             <h3>weight loss & obesity</h3>
-                            <button className="health">Learn More</button>
+                            <a href="weightLoss">
+                                <button className="health">Learn More</button>
+                            </a>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
                             <img src={concussion} width="100%" alt="concussion assessments"/>
                             <h3>concussion assessment</h3>
-                            <button className="health">Learn More</button>
+                            <a href="concussion">
+                                <button className="health">Learn More</button>
+                            </a>
                         </Col>
                         <Col>
                             <img src={allergies} width="100%" alt="types of allergies"/>
                             <h3>types of allergies</h3>
-                            <button className="health">Learn More</button>
+                            <a href="allergies">
+                                <button className="health">Learn More</button>
+                            </a>
                         </Col>
                         <Col>
                         </Col>
