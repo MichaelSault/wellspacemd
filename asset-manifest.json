@@ -1,28 +1,40 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8ac25d1.css",
-    "main.js": "/static/js/main.49be3093.js",
+    "main.css": "/static/css/main.6dcab626.css",
+    "main.js": "/static/js/main.986ade67.js",
     "static/js/787.e1e59465.chunk.js": "/static/js/787.e1e59465.chunk.js",
     "static/media/wellspaceVision_home.png": "/static/media/wellspaceVision_home.74a9d8527ee91c35169a.png",
     "static/media/New-Location.png": "/static/media/New-Location.398a071870c09794bdd5.png",
     "static/media/Happy-Family-1024x838.png": "/static/media/Happy-Family-1024x838.1d847077d415d0c4d1f8.png",
     "static/media/Happy-Doctor-1024x839.png": "/static/media/Happy-Doctor-1024x839.135d8ced3d3b391d4131.png",
+    "static/media/Insect.png": "/static/media/Insect.2903266ce5958920b672.png",
+    "static/media/Food.jpg": "/static/media/Food.3730ff6a9ec63c8194fe.jpg",
+    "static/media/article4.jpg": "/static/media/article4.6ef6a2737768bca8413b.jpg",
+    "static/media/Airborn.png": "/static/media/Airborn.ad9fe7f78869d235872b.png",
     "static/media/streptococcal-screen_thumb.jpg": "/static/media/streptococcal-screen_thumb.f6a730f7efe7cac4757d.jpg",
+    "static/media/article2.jpg": "/static/media/article2.18edd0e01b9c22aea035.jpg",
+    "static/media/article0.jpg": "/static/media/article0.f90d0dabd911f3509dc9.jpg",
     "static/media/allergies.png": "/static/media/allergies.ad6ed542e5f2545644e2.png",
     "static/media/covid-vaccine.png": "/static/media/covid-vaccine.2b1de45f6a967467662d.png",
     "static/media/brain.png": "/static/media/brain.7a9c935551511f283b1c.png",
+    "static/media/article3.jpg": "/static/media/article3.2dfa5ad817b56e7510be.jpg",
     "static/media/covid-germ.png": "/static/media/covid-germ.5cb6f990d99acc42598a.png",
     "static/media/pediactric-care.jpg": "/static/media/pediactric-care.8ba51522498c074600b7.jpg",
+    "static/media/Allergies.jpg": "/static/media/Allergies.6cb6a776f9677dd651cd.jpg",
+    "static/media/Drug.jpg": "/static/media/Drug.e160c7b1dbc230095a19.jpg",
+    "static/media/article1.jpg": "/static/media/article1.ba483b5bd5568cacd3fc.jpg",
     "static/media/intramuscular-injection.jpg": "/static/media/intramuscular-injection.48f7a1dc55fba8f942ee.jpg",
+    "static/media/Skin.jpg": "/static/media/Skin.7bad88d6484e09b3c28e.jpg",
+    "static/media/article5.jpg": "/static/media/article5.9a627b67e6e402e82468.jpg",
     "static/media/weight.png": "/static/media/weight.e5f80203fa915aa6d1d3.png",
     "static/media/lady-having-cryotherapy.jpg": "/static/media/lady-having-cryotherapy.0f8efd35dd8fc9af1f07.jpg",
     "index.html": "/index.html",
-    "main.f8ac25d1.css.map": "/static/css/main.f8ac25d1.css.map",
-    "main.49be3093.js.map": "/static/js/main.49be3093.js.map",
+    "main.6dcab626.css.map": "/static/css/main.6dcab626.css.map",
+    "main.986ade67.js.map": "/static/js/main.986ade67.js.map",
     "787.e1e59465.chunk.js.map": "/static/js/787.e1e59465.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8ac25d1.css",
-    "static/js/main.49be3093.js"
+    "static/css/main.6dcab626.css",
+    "static/js/main.986ade67.js"
   ]
 }
