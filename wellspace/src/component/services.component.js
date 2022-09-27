@@ -18,7 +18,7 @@ export default class Services extends React.Component {
                             <img src={cryotheropy} width="100%" alt="Happy Doctor"/>
                         </Col>
                         <Col>
-                            <h1>Our Vision</h1>
+                            <h1>Category Title 1</h1>
                             
                             <ul>
                                 <li>Abscess incision and drainage</li>
@@ -33,7 +33,7 @@ export default class Services extends React.Component {
                     </Row>
                     <Row>
                         <Col>
-                            <h1>Our Vision</h1>
+                            <h1>Category Title 2</h1>
                             
                             <ul>
                                 <li>Local excision of moles, kin growth, skin cancers, etc.</li>
@@ -56,7 +56,7 @@ export default class Services extends React.Component {
                             <img src={streptococcal} width="100%" alt="Happy Doctor"/>
                         </Col>
                         <Col>
-                            <h1>Our Vision</h1>
+                            <h1>Category Title 3</h1>
                             
                             <ul>
                                 <li>Spirometry</li>
@@ -73,7 +73,7 @@ export default class Services extends React.Component {
                     </Row>
                     <Row>
                         <Col>
-                            <h1>Our Vision</h1>
+                            <h1>Category Title 4</h1>
                             
                             <ul>
                                 <li>Allergy immunotherapy injections</li>

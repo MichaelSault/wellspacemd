@@ -23,7 +23,7 @@ export default class Home extends React.Component {
                     <Row>
                         <Col>
                             <h1>Our Vision</h1>
-                            <h3>is to create an environment, or "wellspace,"that fosters wellness with a kind, accountable, comprehensive health care approach that is responsive to meet our patient's medical, social and emotional needs.</h3>
+                            <h3>is to create an environment, or "wellspace,"that fosters wellness with a kind, respectful, expert, comprehensive health care approach that is responsive to meet our patient's medical, social and emotional needs.</h3>
                         </Col>
                         <Col>
                             <img src={happyDoctor} width="100%" alt="Happy Doctor"/>
@@ -35,7 +35,7 @@ export default class Home extends React.Component {
                             </Col>
                         <Col>
                             <h1>This "Wellspace,"</h1>
-                            <h3>we hope, will extend beyond our doors to connect better with you at home to help you and your family.</h3>
+                            <h3>we hope, will extend beyond our physical doors to encompass the mind, body & spirit of our patients and their families.</h3>
                         </Col>
                     </Row>
                 </Container>

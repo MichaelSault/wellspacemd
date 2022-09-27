@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import React from "react";
-import happyDoctor from '../images/Happy-Doctor-1024x839.png';
+import DrSahota from '../images/DrVickramSahota.png';
 
 export default class About extends React.Component {
     render(){
@@ -11,15 +11,27 @@ export default class About extends React.Component {
             <div className="home">
                 <Container>
                     <Row>
-                        <Col>
-                            <img src={happyDoctor} width="100%" alt="Happy Doctor"/>
+                        <h1>Our Vision</h1>
+                        <h3>is to create an environment, or "wellspace,"that fosters wellness with a kind, respectful, expert, comprehensive health care approach 
+                            that is responsive to meet our patient's medical, social and emotional needs.
+                        </h3>
+                    </Row>
+                    <br />
+                    <Row>
+                        <Col xs sm="4">
+                            <img src={DrSahota} float='right' width="100%" alt="Dr. Vickram Sahota"/>
                         </Col>
                         <Col>
-                            <h1>Our Vision</h1>
-                            <p>about what you would want to see on this page if you were looking at an about page.  This is your chance to tell about how you are qualified to serve them.</p>
-                            <p>Nulla hendrerit metus et tincidunt tristique. Fusce molestie commodo mauris, vitae vestibulum tortor venenatis non. Pellentesque quis urna a magna bibendum volutpat a at nisl. Suspendisse finibus, tortor id gravida feugiat, nulla leo venenatis nisi, et aliquam quam ligula eget dui. Suspendisse lectus lorem, varius vel dapibus a, vestibulum a eros. Sed sed magna in neque commodo pretium.</p>
-                            <p>We look forward to your stay.</p>
-                            <p><b>Dr. Wellspace</b></p>
+                            
+                            <br />
+                            <h2>Dr. Vickram Sahota</h2>
+                            <p>I am an attending physician in the Department of Family Practice at Oakville Trafalgar Memorial Hospital (OTMH) .  I wear many ‘hats’ 
+                                including hospitalist physician at OTMH, emergency medicine physician at Milton District Hospital and Assistant Clinical Professor (Adjunct) 
+                                of Medicine at McMaster University.  I practice outpatient family medicine at Wellspace MD located on the campus of OTMH where I care for 
+                                patients and also educate learners in healthcare.  I studied at McMaster University, the University of Western Ontario and the University 
+                                of British Columbia.  A native Ontarian I live and play in Oakville with my delightful family.  When not at my shop I enjoy the lighter 
+                                side of life, outdoor adventure, being curious and amazed by the world and universe around us and generally trying to stay of out trouble!
+                            </p>
                         </Col>
                     </Row>
                     <Row>
