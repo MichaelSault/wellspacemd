@@ -3,10 +3,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import React from "react";
-import cryotheropy from '../images/lady-having-cryotherapy.jpg';
-import intromuscular from '../images/intramuscular-injection.jpg';
-import streptococcal from '../images/streptococcal-screen_thumb.jpg';
-import pediactrics from '../images/pediactric-care.jpg';
+import newsArticle0 from './newsImages/newsArticle0.jpg';
+import newsArticle1 from './newsImages/newsArticle1.jpg';
+import newsArticle2 from './newsImages/newsArticle2.webp';
 
 export default class Services extends React.Component {
     render(){
@@ -14,72 +13,27 @@ export default class Services extends React.Component {
             <div className="home">
                 <Container>
                     <Row>
+                        <h1>News</h1>
                         <Col>
-                            <img src={cryotheropy} width="100%" alt="Happy Doctor"/>
+                            <img src={newsArticle0} width="100%" alt="covid-19"/>
+                            <h3>Residents 18+ can now book appointments for bivalent COVID-19 booster doses</h3>
+                            <a href="https://www.halton.ca/The-Region/News/2022/Residents-18-can-now-book-appointments-for-bivale?fbclid=IwAR0EX_obxWXCWy4JYelzzbkW-Tzh_BGaAP50SMltw4WA6LaME1J7khsSqv0" target="_blank" rel="noreferrer">
+                                <button className="health">Read More</button>
+                            </a>
                         </Col>
                         <Col>
-                            <h1>Our Vision</h1>
-                            
-                            <ul>
-                                <li>Abscess incision and drainage</li>
-                                <li>Simple wound dressings</li>
-                                <li>Cryotherapy</li>
-                            </ul>
-                            
-                            <button className="contact">CONTACT</button>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <h1>Our Vision</h1>
-                            
-                            <ul>
-                                <li>Local excision of moles, kin growth, skin cancers, etc.</li>
-                                <li>Electrocautery of skin lesions</li>
-                                <li>Skin biopsy</li>
-                                <li>Tuberculosis skin testing</li>
-                                <li>Most intramuscular and subcutaneous injections</li>
-                            </ul>
-                            
-                            <button className="contact">CONTACT</button>
+                            <img src={newsArticle1} width="100%" alt="covid-19 vaccine"/>
+                            <h3>Influenza (the Flu)</h3>
+                            <a href="https://www.halton.ca/For-Residents/Immunizations-Preventable-Disease/Diseases-Infections/Influenza-(the-Flu)?fbclid=IwAR13itY1Ry-DRGL1gbluTveVgTCIC0SIYYbWj088ebPn-G8d5ZucbRwcMwA#04" target="_blank" rel="noreferrer">
+                                <button className="health">Read More</button>
+                            </a>
                         </Col>
                         <Col>
-                            <img src={intromuscular} width="100%" alt="Happy Doctor"/>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <img src={streptococcal} width="100%" alt="Happy Doctor"/>
-                        </Col>
-                        <Col>
-                            <h1>Our Vision</h1>
-                            
-                            <ul>
-                                <li>Spirometry</li>
-                                <li>Rapid strep testing</li>
-                                <li>Ear syringing</li>
-                                <li>Toenail removal</li>
-                                <li>IUD insertion</li>
-                            </ul>
-                            
-                            <button className="contact">CONTACT</button>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <h1>Our Vision</h1>
-                            
-                            <ul>
-                                <li>Allergy immunotherapy injections</li>
-                                <li>Prenatal and postnatal care</li>
-                                <li>Newborn and pediatric care, including immunizations</li>
-                                <li>Driver’s license physical examinations</li>
-                            </ul>
-                            
-                            <button className="contact">CONTACT</button>
-                        </Col>
-                        <Col>
-                            <img src={pediactrics} width="100%" alt="Happy Doctor"/>
+                            <img src={newsArticle2} width="100%" alt="weight loss"/>
+                            <h3>CDC finds scant spread of coronavirus in schools with precautions in place</h3>
+                            <a href="https://www.washingtonpost.com/education/cdc-school-virus-spread/2021/01/26/bf949222-5fe6-11eb-9061-07abcc1f9229_story.html" target="_blank" rel="noreferrer">
+                                <button className="health">Read More</button>
+                            </a>
                         </Col>
                     </Row>
                 </Container>

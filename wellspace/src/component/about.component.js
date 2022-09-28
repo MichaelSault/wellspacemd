@@ -34,7 +34,7 @@ export default class About extends React.Component {
                             </p>
                         </Col>
                     </Row>
-                    <Row>
+                    {/* <Row>
                         <Col>
                             <h1>Mission</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
@@ -53,7 +53,7 @@ export default class About extends React.Component {
                             </ul>
                             
                         </Col>
-                    </Row>
+                    </Row> */}
                 </Container>
             </div>
         )
