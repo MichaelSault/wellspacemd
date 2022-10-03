@@ -21,13 +21,9 @@ export default class influenzaAlert extends React.Component {
             return (
                 <div>
                     <Alert variant="success" onClick={() => this.hideAlert()} dismissible>
-                        <Alert.Heading>Influenza Vaccination Update</Alert.Heading>
+                        <Alert.Heading>COVID-19 Vaccination Update</Alert.Heading>
                         <p>
-                            Influenza vaccination including high risk vaccination will be available for high risk patients and seniors on October 5, 2022.
-                        </p>
-                        <hr />
-                        <p>
-                            In November influenza vaccination will be available for all those who wish to have it.
+                        Your doctors at WellspaceMD strongly recommend that all patients greater than six months please obtain their primary COVID19 vaccine series and we have vaccine available for all age groups.  Booster doses for those over five including the bivalent Omicron-inclusive vaccine for those over 18 are also available for administration at WellspaceMD.
                         </p>
                     </Alert>
                 </div>

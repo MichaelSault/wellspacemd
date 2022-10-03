@@ -17,6 +17,7 @@ import ObesityTip from './component/health tips/obesityTip.component';
 import ConcussionTip from './component/health tips/concussionTip.component';
 import AllergyTip from './component/health tips/allergyTip.component';
 import InfluenzaAlert from './component/influenzaAlert.component';
+import CovidAlert from './component/covidAlert.component';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
     <div>
       <Navbar/>
       <InfluenzaAlert/>
+      <CovidAlert/>
       <div>
         <BrowserRouter>
           <Routes>
