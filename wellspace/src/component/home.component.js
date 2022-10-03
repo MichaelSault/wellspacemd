@@ -8,11 +8,15 @@ import happyDoctor from '../images/Happy-Doctor-1024x839.png';
 import happyFamily from '../images/Happy-Family-1024x838.png';
 import wellSpaceLocation from '../images/New-Location.png';
 import ContactBlock from './contactBlock.component';
+import CovidAlert from './covidAlert.component';
+import InfluenzaAlert from './influenzaAlert.component';
 
 export default class Home extends React.Component {
     render(){
         return (
             <div className="home">
+                <InfluenzaAlert />
+                <CovidAlert />
                 <img src={wellSpaceVision} width="100%" alt="Wellspace Vision"/>
                 <br/><br/>
                 <h1>A Team That Always Goes Above & Beyond</h1>

@@ -16,16 +16,12 @@ import VaccineTip from './component/health tips/vaccineTip.component';
 import ObesityTip from './component/health tips/obesityTip.component';
 import ConcussionTip from './component/health tips/concussionTip.component';
 import AllergyTip from './component/health tips/allergyTip.component';
-import InfluenzaAlert from './component/influenzaAlert.component';
-import CovidAlert from './component/covidAlert.component';
 
 
 function App() {
   return (
     <div>
       <Navbar/>
-      <InfluenzaAlert/>
-      <CovidAlert/>
       <div>
         <BrowserRouter>
           <Routes>
