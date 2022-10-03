@@ -5,8 +5,8 @@ A live version of this website is available at https://wellspacemd.com/
 
 ----
 
-###Updated October 2, 2022
-####To-Do:
+### Updated October 2, 2022
+#### To-Do:
 - [x] Get base website up and running so that it is functionally complete
   - [x] Home Page
   - [x] About Us
