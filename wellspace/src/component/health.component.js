@@ -13,9 +13,10 @@ export default class Services extends React.Component {
     render(){
         return (
             <div className="home">
-                <h1>Health Tips</h1>
+                
                 <Container>
                     <Row>
+                        <h1>Health Tips</h1>
                         <Col>
                             <img src={covidGerm} width="100%" alt="covid-19"/>
                             <h3>covid-19</h3>

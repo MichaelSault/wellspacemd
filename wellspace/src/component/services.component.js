@@ -13,6 +13,7 @@ export default class Services extends React.Component {
         return (
             <div className="home">
                 <Container>
+                    <h1>Services</h1>
                     <Row>
                         <Col>
                             <img src={cryotheropy} width="100%" alt="Happy Doctor"/>
@@ -20,7 +21,7 @@ export default class Services extends React.Component {
                         <Col>
                             {/* <h1>Category Title 1</h1> */}
                             
-                            <ul className='serviceList'>
+                            <ul className='serviceListLeft'>
                                 <li>Abscess incision and drainage</li>
                                 <li>Simple wound dressings</li>
                                 <li>Cryotherapy</li>
@@ -35,19 +36,25 @@ export default class Services extends React.Component {
                         <Col>
                             {/* <h1>Category Title 2</h1> */}
                             
-                            <ul className='serviceList'>
+                            <ul className='serviceListRight'>
                                 <li>Local excision of moles, kin growth, skin cancers, etc.</li>
                                 <li>Electrocautery of skin lesions</li>
                                 <li>Skin biopsy</li>
                                 <li>Tuberculosis skin testing</li>
                                 <li>Most intramuscular and subcutaneous injections</li>
                             </ul>
-                            
-                            <a href="contact">
-                                <button className="contactButton"  href="contact">Contact</button>
-                            </a>
+                        <Row>
+                            <Col></Col>
+                            <Col></Col>
+                            <Col></Col>
+                            <Col>
+                                <a href="contact">
+                                    <button className="contactButton"  href="contact">Contact</button>
+                                </a>
+                            </Col>
+                        </Row>
                         </Col>
-                        <Col>
+                        <Col >
                             <img src={intromuscular} width="100%" alt="Happy Doctor"/>
                         </Col>
                     </Row>
@@ -58,33 +65,43 @@ export default class Services extends React.Component {
                         <Col>
                             {/* <h1>Category Title 3</h1> */}
                             
-                            <ul className='serviceList'>
+                            <ul className='serviceListLeft'>
                                 <li>Spirometry</li>
                                 <li>Rapid strep testing</li>
                                 <li>Ear syringing</li>
                                 <li>Toenail removal</li>
                                 <li>IUD insertion</li>
                             </ul>
-                            
-                            <a href="contact">
-                                <button className="contactButton"  href="contact">Contact</button>
-                            </a>
+                        <Row>
+                            <Col>
+                                <a href="contact">
+                                    <button className="contactButton"  href="contact">Contact</button>
+                                </a>
+                            </Col>
+                        </Row>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
                             {/* <h1>Category Title 4</h1> */}
                             
-                            <ul className='serviceList'>
+                            <ul className='serviceListRight'>
                                 <li>Allergy immunotherapy injections</li>
                                 <li>Prenatal and postnatal care</li>
                                 <li>Newborn and pediatric care, including immunizations</li>
                                 <li>Driver’s license physical examinations</li>
                             </ul>
+                        <Row>
+                            <Col></Col>
+                            <Col></Col>
+                            <Col></Col>
+                            <Col>
+                                <a href="contact">
+                                    <button className="contactButton"  href="contact">Contact</button>
+                                </a>
+                            </Col>
+                        </Row>
                             
-                            <a href="contact">
-                                <button className="contactButton"  href="contact">Contact</button>
-                            </a>
                         </Col>
                         <Col>
                             <img src={pediactrics} width="100%" alt="Happy Doctor"/>

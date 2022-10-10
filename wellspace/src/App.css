@@ -49,8 +49,17 @@
 }
 
 .submit {
-  width: 70%;
+  width: 100%;
   align-self: center;
+}
+
+.health {
+  width: 100%;
+}
+
+.contactButton {
+  margin: auto;
+  align-items: flex-end;
 }
 
 .navbar-expand-sm {
@@ -87,6 +96,16 @@
   font-size: 1.5em;
 }
 
-.serviceList { 
-  font-size: large;
+.serviceListLeft, .serviceListRight{ 
+  font-size: 25px;
+  margin-top: 30px;
+  list-style-type: none;
+}
+
+.serviceListRight { 
+  text-align: right;
+}
+
+li {
+  padding: 10px;
 }
