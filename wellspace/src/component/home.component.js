@@ -11,20 +11,31 @@ import ContactBlock from './contactBlock.component';
 import CovidAlert from './covidAlert.component';
 import InfluenzaAlert from './influenzaAlert.component';
 
+
 export default class Home extends React.Component {
-    render(){
+
+    constructor(props) {
+        super(props);
+        
+        this.state = {
+            displayVideo: false
+        };
+    }
+
+    render(){ 
         return (
             <div className="home">
                 <InfluenzaAlert />
                 <CovidAlert />
                 <img src={wellSpaceVision} width="100%" alt="Wellspace Vision"/>
                 <br/><br/>
-                <h1>A Team That Always Goes Above & Beyond</h1>
+                
                 <br/>
 
 
                 <Container>
                     <Row>
+                        <h1><b>A Team That Always Goes Above & Beyond</b></h1>
                         <Col>
                             <h1>Our Vision</h1>
                             <h3>is to create an environment, or "wellspace,"that fosters wellness with a kind, respectful, expert, comprehensive health care approach that is responsive to meet our patient's medical, social and emotional needs.</h3>
@@ -48,13 +59,26 @@ export default class Home extends React.Component {
                 
                 <br /><br />
 
-                <a className="centered" href="video">
-                    <button className="video">Watch Video ▷</button>
-                </a>
-
-
-                <br /><br /><br />
                 <Container>
+                    <Row>
+                        <Col></Col>
+                        <Col>
+                        
+                        <button className="video" onClick={() => this.setState({displayVideo: !this.state.displayVideo})}>Watch Video ▷</button>
+
+                        {this.state.displayVideo ? <iframe
+                            width="1080px"
+                            height='720px'
+                            src={"https://youtube.com/embed/GXd1gLwTEPY"}
+                            title="Youtube Player"
+                            frameborder="0"
+                            allowFullScreen
+                        /> : null}
+
+                        </Col>
+                        <Col></Col>
+                        <br /><br /><br />
+                    </Row>
                     <Row>
                         <Col>
                         <h1>Hours</h1>

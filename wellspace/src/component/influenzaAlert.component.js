@@ -23,7 +23,7 @@ export default class influenzaAlert extends React.Component {
                     <Alert variant="success" onClick={() => this.hideAlert()} dismissible>
                         <Alert.Heading>Influenza Vaccination Update</Alert.Heading>
                         <p>
-                            Influenza vaccination including high risk vaccination will be available for high risk patients and seniors on October 5, 2022.
+                            Influenza vaccination including the high dose influenza vaccine is now available to high risk patients and those over 65 years old.
                         </p>
                         <hr />
                         <p>

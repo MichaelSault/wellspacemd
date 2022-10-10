@@ -9,6 +9,7 @@ import article2 from './vaccine/article2.jpg';
 import article3 from './vaccine/article3.jpg';
 import article4 from './vaccine/article4.jpg';
 import article5 from './vaccine/article5.jpg';
+import bivalent from './vaccine/bivalentBooster.png';
 
 const src = "https://www.youtube.com/embed/AMt75Gy5_pA"
 
@@ -16,9 +17,15 @@ export default class VaccineTip extends React.Component {
     render(){
         return (
             <div className="home">
-                <h1>Everything You Need To Know</h1>
                 <Container>
                     <Row>
+                        <h1>Everything You Need To Know</h1>
+                        <Col>
+                            <img src={bivalent} width="100%" alt="bivalent booster" />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <h1>Learn More</h1>
                         <Col>
                             <img src={article0} width="100%" alt="covid-19"/>
                             <h3>ontario government's vaccine rollout</h3>
@@ -52,16 +59,18 @@ export default class VaccineTip extends React.Component {
                             <button className="health">View</button>
                         </Col>
                     </Row>
-                </Container>
-                <h1>The Expert's Answers</h1>
-                <iframe
-                    width="1080px"
-                    height='720px'
-                    src={src}
-                    title="Youtube Player"
-                    frameborder="0"
-                    allowFullScreen
-                />
+                    <Row>
+                        <h1>The Expert's Answers</h1>
+                        <iframe
+                            width="1080px"
+                            height='720px'
+                            src={src}
+                            title="Youtube Player"
+                            frameborder="0"
+                            allowFullScreen
+                        />
+                    </Row>
+                    </Container>
             </div>
         )
     }

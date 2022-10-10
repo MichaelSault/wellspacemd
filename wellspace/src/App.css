@@ -39,6 +39,11 @@
   width: 300px
 }
 
+.video {
+  width: 1080px;
+  height: 50px;
+}
+
 .email {
   text-transform: none;
 }
@@ -80,4 +85,8 @@
 
 .allergyDesc {
   font-size: 1.5em;
+}
+
+.serviceList { 
+  font-size: large;
 }

@@ -20,7 +20,7 @@ export default class Services extends React.Component {
                         <Col>
                             {/* <h1>Category Title 1</h1> */}
                             
-                            <ul>
+                            <ul className='serviceList'>
                                 <li>Abscess incision and drainage</li>
                                 <li>Simple wound dressings</li>
                                 <li>Cryotherapy</li>
@@ -35,7 +35,7 @@ export default class Services extends React.Component {
                         <Col>
                             {/* <h1>Category Title 2</h1> */}
                             
-                            <ul>
+                            <ul className='serviceList'>
                                 <li>Local excision of moles, kin growth, skin cancers, etc.</li>
                                 <li>Electrocautery of skin lesions</li>
                                 <li>Skin biopsy</li>
@@ -58,7 +58,7 @@ export default class Services extends React.Component {
                         <Col>
                             {/* <h1>Category Title 3</h1> */}
                             
-                            <ul>
+                            <ul className='serviceList'>
                                 <li>Spirometry</li>
                                 <li>Rapid strep testing</li>
                                 <li>Ear syringing</li>
@@ -75,7 +75,7 @@ export default class Services extends React.Component {
                         <Col>
                             {/* <h1>Category Title 4</h1> */}
                             
-                            <ul>
+                            <ul className='serviceList'>
                                 <li>Allergy immunotherapy injections</li>
                                 <li>Prenatal and postnatal care</li>
                                 <li>Newborn and pediatric care, including immunizations</li>
