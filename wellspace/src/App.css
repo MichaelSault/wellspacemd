@@ -109,3 +109,11 @@
 li {
   padding: 10px;
 }
+
+h1.therapyTitle {
+  font-size: 125px;
+}
+
+h1.titleListRight{
+  text-align: right;
+}

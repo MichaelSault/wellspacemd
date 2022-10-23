@@ -16,6 +16,7 @@ import VaccineTip from './component/health tips/vaccineTip.component';
 import ObesityTip from './component/health tips/obesityTip.component';
 import ConcussionTip from './component/health tips/concussionTip.component';
 import AllergyTip from './component/health tips/allergyTip.component';
+import Therapy from './component/therapy.component';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
             <Route path='/weightLoss' element={<ObesityTip />} />
             <Route path='/concussion' element={<ConcussionTip />} />
             <Route path='/allergies' element={<AllergyTip />} />
+            <Route path='/therapy' element={<Therapy />} />
           </Routes>
         </BrowserRouter>
       </div>
