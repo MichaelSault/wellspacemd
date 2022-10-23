@@ -111,9 +111,16 @@ li {
 }
 
 h1.therapyTitle {
-  font-size: 125px;
+  font-size: 100px;
 }
 
-h1.titleListRight{
+h1.titleListRight {
   text-align: right;
+}
+
+img.carosaulTherapyCenter {
+  margin-left: "auto";
+  margin-right: "auto"; 
+  display: "flex";
+  justify-content: "center";
 }

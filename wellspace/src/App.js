@@ -21,7 +21,7 @@ import Therapy from './component/therapy.component';
 
 function App() {
   return (
-    <div>
+    <div style={{backgroundColor: '#edf3f5'}}>
       <Navbar/>
       <div>
         <BrowserRouter>

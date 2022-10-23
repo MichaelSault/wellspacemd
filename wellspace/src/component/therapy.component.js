@@ -6,6 +6,8 @@ import React from 'react';
 
 import therapyLogo from './therapyImages/therapyLogo.jpg';
 
+import TherapyCarousal from './therapyCarousal.component';
+
 export default class Therapy extends React.Component {
     render(){
         return (
@@ -13,12 +15,15 @@ export default class Therapy extends React.Component {
                 <Container>
                     <Row>
                         <Col md="auto"><img src={therapyLogo} float='right' width="200" alt="Dr. Vickram Sahota"/></Col>
-                        <Col><h1 class='therapyTitle'>Wellspace Therapy</h1></Col>
+                        <Col><h1 className='therapyTitle'>Wellspace Therapy</h1></Col>
                         <h3>is to create an environment, or "wellspace,"that fosters wellness with a kind, respectful, expert, comprehensive health care approach 
                             that is responsive to meet our patient's medical, social and emotional needs.
                         </h3>
                     </Row>
                     <br />
+                    <Row>
+                        <Col md><TherapyCarousal /></Col>
+                    </Row>
                     <Row>
                         <Col>
                             <br />
@@ -48,10 +53,6 @@ export default class Therapy extends React.Component {
                                 <li>Trauma informed trainings</li>
                                 <li>Trauma Focused CBT</li>
                             </ul>
-                            
-                            <a href="contact">
-                                <button className="contactButton"  href="contact">Contact</button>
-                            </a>
                         </Col>
                     </Row>
                     <Row>
@@ -63,14 +64,6 @@ export default class Therapy extends React.Component {
                                 <li>Gottman Couples Therapy- completed Level 1 and 2</li>
                             </ul>
                         <Row>
-                            <Col></Col>
-                            <Col></Col>
-                            <Col></Col>
-                            <Col>
-                                <a href="contact">
-                                    <button className="contactButton"  href="contact">Contact</button>
-                                </a>
-                            </Col>
                         </Row>
                         </Col>
                         <Col >
@@ -91,6 +84,9 @@ export default class Therapy extends React.Component {
                                 <li>Grief</li>
                                 <li>Parenting</li>
                             </ul>
+                            <a href="contact">
+                                <button className="contactButton"  href="contact">Contact</button>
+                            </a>
                         </Col>
                     </Row>
                 </Container>
