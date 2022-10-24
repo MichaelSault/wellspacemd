@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.6dcab626.css",
-    "main.js": "/static/js/main.4cfd9746.js",
+    "main.css": "/static/css/main.5bc2976f.css",
+    "main.js": "/static/js/main.1e11a842.js",
     "static/js/787.e1e59465.chunk.js": "/static/js/787.e1e59465.chunk.js",
     "static/media/wellspaceVision_home.png": "/static/media/wellspaceVision_home.74a9d8527ee91c35169a.png",
     "static/media/New-Location.png": "/static/media/New-Location.398a071870c09794bdd5.png",
     "static/media/Happy-Family-1024x838.png": "/static/media/Happy-Family-1024x838.1d847077d415d0c4d1f8.png",
+    "static/media/newsArticle1.jpg": "/static/media/newsArticle1.28e3d44d7f54970e7b0c.jpg",
+    "static/media/therapy5.jpg": "/static/media/therapy5.369497f5225ccea9b548.jpg",
     "static/media/DrVickramSahota.png": "/static/media/DrVickramSahota.2720b80b62e1066276f2.png",
+    "static/media/therapy3.jpg": "/static/media/therapy3.df39453f6ecacd9c4745.jpg",
     "static/media/Happy-Doctor-1024x839.png": "/static/media/Happy-Doctor-1024x839.135d8ced3d3b391d4131.png",
+    "static/media/bivalentBooster.png": "/static/media/bivalentBooster.70161575d6eb7c27e614.png",
     "static/media/Insect.png": "/static/media/Insect.2903266ce5958920b672.png",
+    "static/media/therapy2.jpg": "/static/media/therapy2.950c31f3df49084cf33a.jpg",
+    "static/media/therapy4.jpg": "/static/media/therapy4.ac57da874bbfaa47c13e.jpg",
+    "static/media/therapy1.jpg": "/static/media/therapy1.37cf0b988491ae8d916c.jpg",
     "static/media/Food.jpg": "/static/media/Food.3730ff6a9ec63c8194fe.jpg",
+    "static/media/therapy6.jpg": "/static/media/therapy6.43c1fe97873af5ab7aa6.jpg",
+    "static/media/newsArticle2.jpg": "/static/media/newsArticle2.e2c4a7c4168ec85893ad.jpg",
     "static/media/article4.jpg": "/static/media/article4.6ef6a2737768bca8413b.jpg",
     "static/media/Airborn.png": "/static/media/Airborn.ad9fe7f78869d235872b.png",
     "static/media/streptococcal-screen_thumb.jpg": "/static/media/streptococcal-screen_thumb.f6a730f7efe7cac4757d.jpg",
@@ -29,13 +38,15 @@
     "static/media/article5.jpg": "/static/media/article5.9a627b67e6e402e82468.jpg",
     "static/media/weight.png": "/static/media/weight.e5f80203fa915aa6d1d3.png",
     "static/media/lady-having-cryotherapy.jpg": "/static/media/lady-having-cryotherapy.0f8efd35dd8fc9af1f07.jpg",
+    "static/media/newsArticle0.jpg": "/static/media/newsArticle0.feda77db2744c01a2b24.jpg",
+    "static/media/therapyLogo.jpg": "/static/media/therapyLogo.3f423270af4cf4ce986a.jpg",
     "index.html": "/index.html",
-    "main.6dcab626.css.map": "/static/css/main.6dcab626.css.map",
-    "main.4cfd9746.js.map": "/static/js/main.4cfd9746.js.map",
+    "main.5bc2976f.css.map": "/static/css/main.5bc2976f.css.map",
+    "main.1e11a842.js.map": "/static/js/main.1e11a842.js.map",
     "787.e1e59465.chunk.js.map": "/static/js/787.e1e59465.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dcab626.css",
-    "static/js/main.4cfd9746.js"
+    "static/css/main.5bc2976f.css",
+    "static/js/main.1e11a842.js"
   ]
 }
