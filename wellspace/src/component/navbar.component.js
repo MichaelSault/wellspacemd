@@ -4,6 +4,7 @@ import wellSpaceLogo from '../images/wellspaceLogo.png';
 export default class Navbar extends React.Component {
     render(){
         return (
+            <>
             <div className="navbar">
                 <nav className="navbar sticky-top navbar-expand-sm navbar-light">
                     <a className="navbar-brand"  href="/">
@@ -37,6 +38,8 @@ export default class Navbar extends React.Component {
                     </div>
                 </nav>
             </div>
+            <br/>
+            </>
         )
     }
     

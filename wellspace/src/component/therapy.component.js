@@ -14,7 +14,6 @@ export default class Therapy extends React.Component {
     render(){
         return (
             <div className="home">
-                <br></br>
                 <Container>
                     <Row>
                         <Col md="auto"><img src={therapyLogo} float='right' width="125" alt="Wellspace Therapy Logo"/></Col>
@@ -23,10 +22,10 @@ export default class Therapy extends React.Component {
                     <br></br>
                     <Row>
                         <hr></hr>
-                        <h3>At Wellspace Therapy, I believe in working from a client centred and collaborative approach, which means you will drive the therapeutic
+                        <h5>At Wellspace Therapy, I believe in working from a client centred and collaborative approach, which means you will drive the therapeutic
                              process and I am here as a guide. I offer a trauma-informed, anti-oppressive, non-judgmental and curious space for clients to feel seen and 
                              heard so you can begin your self-discovery/healing journey.
-                        </h3>
+                        </h5>
                     </Row>
                     <hr></hr>
                     <br />
@@ -84,7 +83,7 @@ export default class Therapy extends React.Component {
                     <hr></hr>
                     <Row>
                         <Col>
-                        <h1>Office Hours</h1>
+                        <h2>Office Hours</h2>
                         <Row>
                             <Col><h3>Wednesday</h3></Col>
                             <Col><h3>10:00am-5:30pm</h3></Col>

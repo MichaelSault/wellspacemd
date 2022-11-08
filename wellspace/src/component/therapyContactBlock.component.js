@@ -12,7 +12,7 @@ export default class TherapyContactBlock extends React.Component {
                 <Row>
                 <Col></Col>
                 <Col>
-                    <h1>Contact</h1>
+                    <h2>Contact</h2>
                     <button className="phone">✆ 905-618-9934</button>
                     <br /><br />
                     <button className="email">mandy.sahota@wellspacemd.com</button>
