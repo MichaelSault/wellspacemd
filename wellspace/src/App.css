@@ -62,6 +62,10 @@
   align-items: flex-end;
 }
 
+.navbar, .footer{
+  background-color:#dee8eb
+}
+
 .navbar-expand-sm {
   flex-wrap: nowrap;
   justify-content: flex-start;
@@ -111,11 +115,8 @@ li {
 }
 
 h1.therapyTitle {
-  font-size: 100px;
-}
-
-h1.titleListRight {
-  text-align: right;
+  font-size: 110px;
+  vertical-align: bottom;
 }
 
 img.carosaulTherapyCenter {

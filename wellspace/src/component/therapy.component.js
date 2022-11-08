@@ -4,44 +4,59 @@ import Col from 'react-bootstrap/Col';
 
 import React from 'react';
 
-import therapyLogo from './therapyImages/therapyLogo.jpg';
+import therapyLogo from './therapyImages/therapyLogo.png';
+import mandyHeadshot from './therapyImages/mandyHeadshot.jpg';
 
 import TherapyCarousal from './therapyCarousal.component';
+import TherapyContactBlock from './therapyContactBlock.component';
 
 export default class Therapy extends React.Component {
     render(){
         return (
             <div className="home">
+                <br></br>
                 <Container>
                     <Row>
-                        <Col md="auto"><img src={therapyLogo} float='right' width="200" alt="Dr. Vickram Sahota"/></Col>
+                        <Col md="auto"><img src={therapyLogo} float='right' width="125" alt="Wellspace Therapy Logo"/></Col>
                         <Col><h1 className='therapyTitle'>Wellspace Therapy</h1></Col>
-                        <h3>is to create an environment, or "wellspace,"that fosters wellness with a kind, respectful, expert, comprehensive health care approach 
-                            that is responsive to meet our patient's medical, social and emotional needs.
+                    </Row>
+                    <br></br>
+                    <Row>
+                        <hr></hr>
+                        <h3>At Wellspace Therapy, I believe in working from a client centred and collaborative approach, which means you will drive the therapeutic
+                             process and I am here as a guide. I offer a trauma-informed, anti-oppressive, non-judgmental and curious space for clients to feel seen and 
+                             heard so you can begin your self-discovery/healing journey.
                         </h3>
                     </Row>
+                    <hr></hr>
                     <br />
                     <Row>
                         <Col md><TherapyCarousal /></Col>
                     </Row>
+                    <hr></hr>
                     <Row>
                         <Col>
                             <br />
-                            <h2>Training and Specializations</h2>
+                            <h2>Mandy Sahota's Training and Specializations</h2>
                             <p>
-                                Training is an ongoing process, below are some of the trainings I have completed during my career or am currently pursing.
+                                I worked in Accounting and Finance for about a decade before deciding to change my career path. After having children I was fascinated with 
+                                brain development so I completed a second undergraduate degree in Psychology, Neuroscience and Behaviour from McMaster in 2016.  After some 
+                                personal experiences I decided that completing a Master in Social Work would provide me with the foundation to do the work I felt passionate 
+                                about. I completed a Master in Social Work (MSW) in 2020 from the University of Toronto. I have immersed myself in a wide array of trainings 
+                                during and after completing my MSW so that I can offer my clients the best experience possible.  It would be my privilege to join you in your 
+                                journey of healing and self-discovery.
                             </p>
                         </Col>
                     </Row>
-
+                    <hr></hr>
                     <Row>
                         <Col>
-                            <img src={therapyLogo} width="100%" alt="Happy Doctor"/>
+                            <img src={mandyHeadshot} width="100%" alt="Mandy Sahota Headshot"/>
                         </Col>
                         <Col>
-                            <h1>Individual Approaches</h1>
+                            <h3>Individual Approaches</h3>
                             
-                            <ul className='serviceListLeft'>
+                            <ul>
                                 <li>Somatic Experiencing</li>
                                 <li>Acceptance and Commitment Therapy</li>
                                 <li>Emotionally Focused Individual Therapy</li>
@@ -54,41 +69,36 @@ export default class Therapy extends React.Component {
                                 <li>Trauma Focused CBT</li>
                             </ul>
                         </Col>
-                    </Row>
-                    <Row>
                         <Col>
-                            <h1 className='titleListRight'>Couples Therapy</h1>
+                            <h3>Areas of Support</h3>
                             
-                            <ul className='serviceListRight'>
-                                <li>Emotionally Focused Couples Therapy</li>
-                                <li>Gottman Couples Therapy- completed Level 1 and 2</li>
-                            </ul>
-                        <Row>
-                        </Row>
-                        </Col>
-                        <Col >
-                            <img src={therapyLogo} width="100%" alt="Happy Doctor"/>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <img src={therapyLogo} width="100%" alt="Happy Doctor"/>
-                        </Col>
-                        <Col>
-                            <h1>Areas of Support</h1>
-                            
-                            <ul className='serviceListLeft'>
+                            <ul>
                                 <li>Anxiety</li>
                                 <li>Depression</li>
                                 <li>Couples</li>
                                 <li>Grief</li>
                                 <li>Parenting</li>
                             </ul>
-                            <a href="contact">
-                                <button className="contactButton"  href="contact">Contact</button>
-                            </a>
                         </Col>
                     </Row>
+                    <hr></hr>
+                    <Row>
+                        <Col>
+                        <h1>Office Hours</h1>
+                        <Row>
+                            <Col><h3>Wednesday</h3></Col>
+                            <Col><h3>10:00am-5:30pm</h3></Col>
+                        </Row>
+                        <Row>
+                            <Col><h3>Thursday</h3></Col>
+                            <Col><h3>10:00am-5:30pm</h3></Col>
+                        </Row>                     
+                        </Col>
+                        <Col>
+                            <TherapyContactBlock />
+                        </Col>
+                    </Row>
+                    <hr></hr>
                 </Container>
             </div>
         )

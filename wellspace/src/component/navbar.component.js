@@ -5,7 +5,7 @@ export default class Navbar extends React.Component {
     render(){
         return (
             <div className="navbar">
-                <nav className="navbar sticky-top navbar-expand-sm navbar-light bg-light">
+                <nav className="navbar sticky-top navbar-expand-sm navbar-light">
                     <a className="navbar-brand"  href="/">
                         <img src={wellSpaceLogo} height="60" alt="wellspacemd"/>
                     </a>

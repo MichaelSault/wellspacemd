@@ -14,6 +14,7 @@ export default class Services extends React.Component {
             <div className="home">
                 <Container>
                     <h1>Services</h1>
+                    <hr></hr>
                     <Row>
                         <Col>
                             <img src={cryotheropy} width="100%" alt="Happy Doctor"/>
@@ -32,6 +33,7 @@ export default class Services extends React.Component {
                             </a>
                         </Col>
                     </Row>
+                    <hr></hr>
                     <Row>
                         <Col>
                             {/* <h1>Category Title 2</h1> */}
@@ -58,6 +60,7 @@ export default class Services extends React.Component {
                             <img src={intromuscular} width="100%" alt="Happy Doctor"/>
                         </Col>
                     </Row>
+                    <hr></hr>
                     <Row>
                         <Col>
                             <img src={streptococcal} width="100%" alt="Happy Doctor"/>
@@ -81,6 +84,7 @@ export default class Services extends React.Component {
                         </Row>
                         </Col>
                     </Row>
+                    <hr></hr>
                     <Row>
                         <Col>
                             {/* <h1>Category Title 4</h1> */}
@@ -107,6 +111,7 @@ export default class Services extends React.Component {
                             <img src={pediactrics} width="100%" alt="Happy Doctor"/>
                         </Col>
                     </Row>
+                    <hr></hr>
                 </Container>
             </div>
         )
