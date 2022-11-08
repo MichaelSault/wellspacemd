@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5bc2976f.css",
-    "main.js": "/static/js/main.1e11a842.js",
+    "main.css": "/static/css/main.6197c83c.css",
+    "main.js": "/static/js/main.023a456d.js",
     "static/js/787.e1e59465.chunk.js": "/static/js/787.e1e59465.chunk.js",
     "static/media/wellspaceVision_home.png": "/static/media/wellspaceVision_home.74a9d8527ee91c35169a.png",
     "static/media/New-Location.png": "/static/media/New-Location.398a071870c09794bdd5.png",
@@ -31,22 +31,23 @@
     "static/media/covid-germ.png": "/static/media/covid-germ.5cb6f990d99acc42598a.png",
     "static/media/pediactric-care.jpg": "/static/media/pediactric-care.8ba51522498c074600b7.jpg",
     "static/media/Allergies.jpg": "/static/media/Allergies.6cb6a776f9677dd651cd.jpg",
+    "static/media/mandyHeadshot.jpg": "/static/media/mandyHeadshot.50ff45a548507f748776.jpg",
     "static/media/Drug.jpg": "/static/media/Drug.e160c7b1dbc230095a19.jpg",
     "static/media/article1.jpg": "/static/media/article1.ba483b5bd5568cacd3fc.jpg",
     "static/media/intramuscular-injection.jpg": "/static/media/intramuscular-injection.48f7a1dc55fba8f942ee.jpg",
+    "static/media/therapyLogo.png": "/static/media/therapyLogo.78351c241c4fca3e56ec.png",
     "static/media/Skin.jpg": "/static/media/Skin.7bad88d6484e09b3c28e.jpg",
     "static/media/article5.jpg": "/static/media/article5.9a627b67e6e402e82468.jpg",
     "static/media/weight.png": "/static/media/weight.e5f80203fa915aa6d1d3.png",
     "static/media/lady-having-cryotherapy.jpg": "/static/media/lady-having-cryotherapy.0f8efd35dd8fc9af1f07.jpg",
     "static/media/newsArticle0.jpg": "/static/media/newsArticle0.feda77db2744c01a2b24.jpg",
-    "static/media/therapyLogo.jpg": "/static/media/therapyLogo.3f423270af4cf4ce986a.jpg",
     "index.html": "/index.html",
-    "main.5bc2976f.css.map": "/static/css/main.5bc2976f.css.map",
-    "main.1e11a842.js.map": "/static/js/main.1e11a842.js.map",
+    "main.6197c83c.css.map": "/static/css/main.6197c83c.css.map",
+    "main.023a456d.js.map": "/static/js/main.023a456d.js.map",
     "787.e1e59465.chunk.js.map": "/static/js/787.e1e59465.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bc2976f.css",
-    "static/js/main.1e11a842.js"
+    "static/css/main.6197c83c.css",
+    "static/js/main.023a456d.js"
   ]
 }
