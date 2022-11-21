@@ -21,13 +21,9 @@ export default class influenzaAlert extends React.Component {
             return (
                 <div>
                     <Alert variant="success" onClick={() => this.hideAlert()} dismissible>
-                        <Alert.Heading>Influenza Vaccination Update</Alert.Heading>
+                        <Alert.Heading>Infant and Children's Acetaminophen and Ibuprofen Shortage Update</Alert.Heading>
                         <p>
-                            Influenza vaccination including the high dose influenza vaccine is now available to high risk patients and those over 65 years old.
-                        </p>
-                        <hr />
-                        <p>
-                            In November influenza vaccination will be available for all those who wish to have it.
+                            Please see the <b>Health Tips</b> page for more information concerning usage of Adult Tylenol for infants and children.
                         </p>
                     </Alert>
                 </div>
